@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: EB Garamond;
+    color: white;
+    background-color: #002858;
+}
+
+
+
+/* BARRA DE NAV */
+
+
+
+.conteiner-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 2px solid gold;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.conteiner-header a {
+    text-decoration: none;
+    color: gold;
+}
+
+.conteiner-header a:hover {
+    color: white;
+    transition: 0.5s ;
+}
+
+
+
+.logo {
+    color: gold;
+    font-family: Cinzel;
+    font-size: 40px;
+    font-family: EB Garamond;
+    line-height: 33px;
+}
+
+.itens-li {
+    float: left;
+    list-style: none;
+    margin-right: 40px;
+    font-family: EB Garamond;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+/* PRIMEIRA TELA */
+
+
+
+.conteiner-descricao {
+    width: 100%;
+    height: 75vh;
+    padding-top: 100px;
+    background-image: url(./img/lanterna.avif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-conteiner-descricao {
+    font-family: EB Garamond;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.yuri {
+    font-size: 55px;
+}
+
+.cavalieri {
+    color: gold;
+    font-size: 55px;
+}
+
+.botao-descricao {
+    border: 2px solid gold;
+    background-color: #26485e;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width:30%;   
+    margin-top: 20px;
+}
+
+.botao-descricao:hover {
+    background-color:white;
+    color: #002858 ;
+    transition: 0.7s ;
+}
+
+.conteiner-descricao a {
+    text-decoration: none;
+    color: gold;
+}
+
+
+.foto-principal {
+    width: 350px ;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid gold ;
+}
+
+
+
+/* SOBRE MIM */
+
+
+
+.conteiner-sobre {
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.sobre {
+    width: 80%;
+    margin: auto;
+}
+
+#sobremim {
+    font-size: 40px;
+    color: gold;
+}
+
+.text-sobremim {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+
+
+/* PROJETOS */
+
+
+
+.conteiner-projetos {
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#titulo-projetos {
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container-cards-projetos {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid white ;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color:rgb(106, 106, 106, 0.3) ;
+    box-shadow: 8px 6px 19px -1px rgba(0,0,0,0.76);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+    border: 2px solid gold;
+}
+
+.card h3 {
+    text-align: center;
+    margin: 10px 0px;
+    color: gold;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card-img {
+    width:300px ;
+    box-shadow: 8px 6px 19px -1px rgba(0,0,0,0.76);
+}
+
+.lingua {
+    color: rgb(255, 219, 75);
+}
+
+
+
+
+
+
+
+
+/* CONTATO */ 
+
+
+
+.conteiner-contato {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.contate-me {
+    text-align: center;
+    color: gold;
+    font-size: 40px;
+}
+
+.sub-container-contatos {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.contato  {
+    width:100px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(106, 106, 106, 0.2) ;
+}
+
+.contato:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+
+.contato p {
+    text-align: center;
+    color: gold;
+    box-sizing: border-box;
+}
+
+.logo-git {
+    width: 60px;
+    background-color: white;
+    border-radius: 50% ;
+}
+.logo-linkedin {
+    width: 60px;
+    border-radius: 50% ;
+}
+
+.logo-whats {
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+
+/* FOOTER */
+
+
+
+.container-footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+
+
+
+
+/* MEDIA QUERY MEDIA QUERY MEDIA QUERY   */
+
+
+/* HEADER */   /* COLOCAR O HAMBURGUER EM MAX-WIDTH-650PX */
+
+
+@media screen and (max-width: 800px ) {
+
+   .logo{
+    font-size: 30px;
+}
+
+    .itens-li {
+        font-size: 20px;
+    }
+
+    .conteiner-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 650px ) {
+
+    .caixa-logo {
+        display: none;
+    }
+
+    .logo {
+        font-size: 25px;
+        line-height: 23px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px ) {
+
+    .itens-li {
+        float: none;
+        text-align: center;
+        margin: auto;
+        margin: 5px;
+    }
+
+
+}
+
+
+/* PAGINA INICIAL */
+
+
+@media screen and (max-width: 800px ) {
+
+    .conteiner-descricao {
+        padding-top: 50px;
+    }
+
+    .sub-conteiner-descricao {
+        flex-direction: column;
+    }
+
+    .parte-left {
+        text-align: center;
+    }
+
+    .botao-descricao {
+        margin: 10px auto;
+    }
+
+    .foto-principal {
+        width: 200px ;
+        height: 200px;
+        border-radius: 50%;
+        padding-top: 10px;
+    }
+
+    .botao-descricao {
+        font-size: 15px;
+        padding: 8px;
+        width: 20%;
+    }
+
+
+}
+
+
+/* CONTATO */
+
+  @media screen and (max-width: 768px ) {
+    
+    .sub-container-contatos {
+        margin-top: 20px;
+        flex-direction: column;
+
+    }
+
+    .contato {
+        margin: auto;
+        margin-top: 20px;    
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
